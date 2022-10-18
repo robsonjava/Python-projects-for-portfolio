@@ -1,0 +1,10 @@
+CREATE TABLE produtos (
+    id INT(11),
+    nome VARCHAR(255)
+)
+
+CREATE TABLE usuarios (
+    id INT AUTO_increment primary key,
+    NOME varchar(255),
+    FAV varchar(255)
+)
